@@ -1,0 +1,170 @@
+:root {
+	--primary-font: "Josefin Sans", sans-serif;
+	--h1-font: "Josefin Sans", sans-serif;
+	--h1-size: 4.5rem;
+	--h1-weight: 900;
+	--margin-zero: 0px;
+	--h2-size: 2.2rem;
+	--margin-10: 10px;
+	--h2-weight: 600;
+	--p-size: 1rem;
+	--p-weight: 400;
+	--primary-font-size: 1.3rem;
+	--text--margin: 1.5rem 0;
+	--header-bg-color: #f5f5f5;
+	--nav-item-color: #2f323a;
+	--hero-bg-color: #111111;
+	--hero-secondary-bg-color: #161616;
+	--primary-color:#f79f1f;
+	--white-color: #2f323a;
+	--black-color: #030301;
+    --white-box-shadow:0px 0px 15px 0px rgb(0 0 0 / 10%);
+    --white-bg-color: #f5f5f5;
+	--dark-grey-color: #191919;
+	--primary-t-color: #2f323a;
+	--secondary-t-color: #f5f5f5;
+	--primary-p-color: #6f6f6f;
+	--primary-b-color: #f5f5f5;
+	--primary-l-color: rgba(0, 0, 0, 0.25);
+	--secondary-l-color: rgba(255, 255, 255, 0.25);
+	--valid-color: #007a4d;
+	--invalid-color: #e34f4f;
+	--primary-bg-color: #f5f5f5;
+	--primary-bg-color-2: #eeeeee;
+	--primary-bg-color-3: #e5e5e5;
+	--secondary-bg-color: #030302;
+	--secondary-bg-color-2: #111111;
+	--secondary-bg-color-3: #191919;
+	--card-bg-color: #f5f5f5;
+	--footer-bg-color: #000000;
+	--gradient-color: rgb(0 0 0 / 85%);
+	--section-1-bg-color: #eeeeee;
+	--section-2-bg-color: #f5f5f5;
+}
+
+/*--------- Header Section ----------*/
+
+.navbar .menu li a {
+color: var(--white-color);
+}
+
+li.scroll_nav a::after {
+    content: '';
+    position: absolute;
+    background: var(--primary-color);
+    height: 2px;
+    width: 100%;
+}
+li.scroll_nav a{
+	color: var(--primary-color) !important;
+	transition: all 0.5s ease 0s;
+}
+/* ------- About Section --------*/
+.bar {
+    background-color: rgb(215 215 215);
+}
+.white__bg__image {
+	position: relative;
+	width: 100%;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.white__bg__image::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	background-color: #ffffffc2;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+/* ------- Services Section --------*/
+.services__box {
+	background: var(--white-bg-color);
+    box-shadow: var(--white-box-shadow);
+}
+.services__box:hover .icon i{
+    color: var(--white-bg-color);
+}
+.services__box:hover h4 {
+    color: var(--white-bg-color);
+}
+.services__box:hover.services__box p{
+    color: var(--white-bg-color);
+}
+/* ------- Profolio Section --------*/
+.profolio__text h4 {
+    color: var(--white-bg-color);
+}
+.profolio__text p{
+    color: var(--white-bg-color);
+}
+/*-------- Team Section -------- */
+.team__info {
+    background: var(--white-bg-color);
+    box-shadow: var(--white-box-shadow);
+}
+.team__info h4 {
+    color: var(--white-color);
+}
+.team__info:hover h4{
+	color: var(--white-bg-color);
+}
+.team__info:hover.team__info p {
+    color: var(--white-bg-color);
+}
+
+/* ------- Pricing Section --------*/
+.pricing__box {
+    background: var(--white-bg-color);
+	box-shadow: var(--white-box-shadow);
+}
+.pricing__body li p{
+	color: var(--primary-p-color);
+}
+.pricing__box:hover .pricing__header p{
+	color: var(--white-bg-color);
+}
+.pricing__box:hover .pricing__header h2{
+	color: var(--white-bg-color);
+}
+.pricing__box:hover .pricing__body li p{
+	color: var(--white-bg-color);
+}
+
+/* ---------- Contact Section ---------*/
+.contact__box {
+    background: var(--white-bg-color);
+	box-shadow: var(--white-box-shadow);
+}
+.contact__box:hover .icon i {
+	color: var(--white-bg-color);
+}
+.contact__box:hover h4{
+	color: var(--white-bg-color);
+}
+.contact__box:hover p{
+	color: var(--white-bg-color);
+}
+.contact__box__form input {
+    border: 2px solid #6f6f6f38;
+}
+textarea.form-control {
+    border: 2px solid #6f6f6f38;
+}
+input::placeholder {
+	opacity: 0.5;
+	font-family: var(--primary-font);
+	color: #6f6f6fad !important;
+}
+
+textarea::placeholder {
+	font-family: var(--primary-font);
+	color: #6f6f6fad !important;
+}
+.footer__text p{
+	color: var(--white-color);
+}
